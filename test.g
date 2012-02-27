@@ -95,3 +95,13 @@ m[2][1]; #Access element in matrix
 
 Display(m); #Pretty print
 
+sm := m{[1,2]}{[2,3]}; #Submatrix m{rows}{cols}
+sm{ [ 1, 2 ] }{ [2] } := [[-2],[0]];;  sm; #Set a submatrix in a matrix
+
+Order((1,2,3,4));
+
+date:=rec(year:=1997,month:="Jul",day:=14); #Create a struct (can be chained, rec in rec)
+RecNames(date);
+
+http://turnbull.mcs.st-and.ac.uk/~gap/Manuals/doc/htm/tut/CHAP004.htm
+
