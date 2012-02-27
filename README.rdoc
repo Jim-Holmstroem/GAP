@@ -1,2 +1,5 @@
 == GAP
 http://www.gap-system.org/
+
+== Installation instruction for GAP (Ubuntu 11.10)
+    sudo apt-get install gap
