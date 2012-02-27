@@ -103,5 +103,4 @@ Order((1,2,3,4));
 date:=rec(year:=1997,month:="Jul",day:=14); #Create a struct (can be chained, rec in rec)
 RecNames(date);
 
-http://turnbull.mcs.st-and.ac.uk/~gap/Manuals/doc/htm/tut/CHAP004.htm
 
